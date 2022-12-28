@@ -18,3 +18,38 @@ let arr = [
 
 const result = arr.filter(phone => phone.price < 500);
 console.log(result);
+
+var phones = [
+  'Samsung',
+  'Xiaomi',
+  'Oppo'
+]
+
+console.log (phones)
+
+var phones = [
+  'Samsung',
+  'Xiaomi',
+  'Oppo'
+]
+
+phones.push ('Huawei')
+console.log (phones)
+
+var phones = [
+  'Samsung',
+  'Xiaomi',
+  'Oppo'
+]
+
+phones.pop()
+console.log (phones)
+
+var phones = [
+  'Samsung',
+  'Xiaomi',
+  'Oppo'
+]
+
+console.log (phones)
+console.log (phones[2])
